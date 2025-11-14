@@ -36,8 +36,9 @@ pip install opencv-python mediapipe streamlit streamlit-webrtc numpy
 
 # 🎥 3. Prueba de funcionamiento de la cámara
 
-Antes de implementar la app, se probó que la cámara funcionara correctamente con un script sencillo de OpenCV:
 ´´´bash
+Antes de implementar la app, se probó que la cámara funcionara correctamente con un script sencillo de OpenCV:
+
 import cv2
 
 cap = cv2.VideoCapture(0)
