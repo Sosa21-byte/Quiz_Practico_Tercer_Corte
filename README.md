@@ -36,7 +36,7 @@ pip install opencv-python mediapipe streamlit streamlit-webrtc numpy
 
 # 🎥 3. Prueba de funcionamiento de la cámara
 
-´´´bash
+bash´´´
 Antes de implementar la app, se probó que la cámara funcionara correctamente con un script sencillo de OpenCV:
 
 import cv2
@@ -62,7 +62,7 @@ Verificar permisos
 Validar drivers de video
 
 Confirmar que OpenCV reconocía la cámara
-´´´bash
+bash´´´
 
 🎛️ 4. Implementación del sistema de detección de movimiento
 
