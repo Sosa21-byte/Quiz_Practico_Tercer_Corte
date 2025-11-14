@@ -7,7 +7,7 @@ Este repositorio contiene el desarrollo del ejercicio práctico del tercer corte
 
 A continuación se describe todo el paso a paso real realizado durante el proceso, incluyendo instalación, configuración de entorno, pruebas de cámara y ejecución de la aplicación final.
 
-🧩 1. Creación del repositorio y entorno de trabajo
+# 🧩 1. Creación del repositorio y entorno de trabajo
 
 Crear la carpeta principal del proyecto:
 
@@ -28,7 +28,7 @@ En PowerShell:
 
 Confirmar que el entorno está activo (se debe ver (venv) en la terminal).
 
-🛠️ 2. Instalación de dependencias
+# 🛠️ 2. Instalación de dependencias
 
 Dentro del entorno virtual se instalaron todas las librerías necesarias:
 
@@ -36,7 +36,7 @@ pip install opencv-python mediapipe streamlit streamlit-webrtc numpy
 
 # 🎥 3. Prueba de funcionamiento de la cámara
 
-bash´´´
+
 Antes de implementar la app, se probó que la cámara funcionara correctamente con un script sencillo de OpenCV:
 
 import cv2
@@ -62,9 +62,9 @@ Verificar permisos
 Validar drivers de video
 
 Confirmar que OpenCV reconocía la cámara
-bash´´´
 
-🎛️ 4. Implementación del sistema de detección de movimiento
+
+# 🎛️ 4. Implementación del sistema de detección de movimiento
 
 Se desarrolló un script que detecta movimiento usando:
 
@@ -78,7 +78,7 @@ Umbralización y contornos
 
 Además, se integró con MediaPipe para mejorar el procesamiento según lo requerido por el profesor.
 
-🌐 5. Implementación de la interfaz con Streamlit + WebRTC
+# 🌐 5. Implementación de la interfaz con Streamlit + WebRTC
 
 Para visualizar la cámara en el navegador, se creó un archivo app.py usando Streamlit y streamlit-webrtc:
 
@@ -99,7 +99,7 @@ O en caso de problemas con la ruta:
 
 python -m streamlit run app.py
 
-🧪 6. Prueba y validación del demo
+# 🧪 6. Prueba y validación del demo
 
 Se verificó:
 
@@ -113,7 +113,7 @@ Que Streamlit no fallara al cargar WebRTC
 
 Todo funcionando según el demo de referencia de MediaPipe.
 
-📂 7. Estructura final del repositorio
+# 📂 7. Estructura final del repositorio
 Quiz_Practico_Tercer_Corte/
 │── venv/
 │── app.py
@@ -122,7 +122,7 @@ Quiz_Practico_Tercer_Corte/
 │── requirements.txt
 │── README.md
 
-🎬 8. Rseultados
+# 🎬 8. Rseultados
 
 
 ![Imagen de WhatsApp 2025-11-13 a las 16 29 17_41774549](https://github.com/user-attachments/assets/4bea1798-0657-4633-8b47-668cd1d87a58)
@@ -131,7 +131,7 @@ Quiz_Practico_Tercer_Corte/
 
 
 
-✅ 9. Conclusiones
+# ✅ 9. Conclusiones
 
 Se configuró correctamente un entorno virtual.
 
