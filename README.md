@@ -34,10 +34,10 @@ Dentro del entorno virtual se instalaron todas las librerías necesarias:
 
 pip install opencv-python mediapipe streamlit streamlit-webrtc numpy
 
-🎥 3. Prueba de funcionamiento de la cámara
+# 🎥 3. Prueba de funcionamiento de la cámara
 
 Antes de implementar la app, se probó que la cámara funcionara correctamente con un script sencillo de OpenCV:
-
+´´´bash
 import cv2
 
 cap = cv2.VideoCapture(0)
@@ -61,6 +61,7 @@ Verificar permisos
 Validar drivers de video
 
 Confirmar que OpenCV reconocía la cámara
+´´´bash
 
 🎛️ 4. Implementación del sistema de detección de movimiento
 
@@ -121,6 +122,8 @@ Quiz_Practico_Tercer_Corte/
 │── README.md
 
 🎬 8. Rseultados
+
+
 ![Imagen de WhatsApp 2025-11-13 a las 16 29 17_41774549](https://github.com/user-attachments/assets/4bea1798-0657-4633-8b47-668cd1d87a58)
 ![Imagen de WhatsApp 2025-11-13 a las 16 30 18_b3136312](https://github.com/user-attachments/assets/16fe95d4-d218-4a19-9387-44811af81e01)
 ![Imagen de WhatsApp 2025-11-13 a las 16 30 28_18820de8](https://github.com/user-attachments/assets/ada9ea80-f175-4b52-b43a-5862b4b47c7c)
